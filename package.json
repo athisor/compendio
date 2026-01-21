@@ -1,0 +1,12 @@
+{
+  "name": "swade-setting-iz3",
+  "version": "1.0.0",
+  "description": "Compendios de Interface Zero 3.0 para SWADE en Foundry VTT",
+  "type": "module",
+  "scripts": {
+    "build": "node build-packs.js"
+  },
+  "dependencies": {
+    "classic-level": "^1.4.1"
+  }
+}
