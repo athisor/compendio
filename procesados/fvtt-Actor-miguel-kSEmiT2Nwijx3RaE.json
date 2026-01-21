@@ -1,0 +1,1030 @@
+{
+  "name": "Miguel",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "additionalStats": {},
+    "attributes": {
+      "agility": {
+        "die": {
+          "sides": 8,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        }
+      },
+      "smarts": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "animal": false
+      },
+      "spirit": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unShakeBonus": 0
+      },
+      "strength": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "encumbranceSteps": 0
+      },
+      "vigor": {
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "unStunBonus": 0,
+        "soakBonus": 0,
+        "bleedOut": {
+          "modifier": 0,
+          "ignoreWounds": false
+        }
+      }
+    },
+    "pace": {
+      "base": "ground",
+      "ground": 6,
+      "fly": null,
+      "swim": null,
+      "burrow": null,
+      "running": {
+        "die": 6,
+        "mod": 0
+      }
+    },
+    "stats": {
+      "toughness": {
+        "value": 0,
+        "armor": 0,
+        "modifier": 0
+      },
+      "parry": {
+        "value": 0,
+        "shield": 0,
+        "modifier": 0
+      },
+      "size": 0,
+      "speed": {}
+    },
+    "details": {
+      "autoCalcToughness": true,
+      "autoCalcParry": true,
+      "archetype": "Smuggler",
+      "appearance": "",
+      "notes": "",
+      "goals": "",
+      "biography": {
+        "value": ""
+      },
+      "species": {
+        "name": "Humano"
+      },
+      "currency": 500,
+      "wealth": {
+        "die": 6,
+        "modifier": 0,
+        "wild-die": 6
+      },
+      "conviction": {
+        "value": 0,
+        "active": false
+      }
+    },
+    "powerPoints": {
+      "general": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "fatigue": {
+      "value": 0,
+      "max": 2,
+      "ignored": 0
+    },
+    "woundsOrFatigue": {
+      "ignored": 0
+    },
+    "advances": {
+      "mode": "expanded",
+      "value": 0,
+      "rank": "Novice",
+      "details": "",
+      "list": [
+        {
+          "id": "ahjhcDlG",
+          "type": 0,
+          "sort": 1,
+          "planned": false,
+          "notes": "<p>hola</p>",
+          "rank": 0,
+          "enrichedNotes": "<p>hola</p>"
+        }
+      ]
+    },
+    "status": {
+      "isShaken": false,
+      "isDistracted": false,
+      "isVulnerable": false,
+      "isStunned": false,
+      "isEntangled": false,
+      "isBound": false,
+      "isIncapacitated": false
+    },
+    "initiative": {
+      "hasHesitant": false,
+      "hasLevelHeaded": false,
+      "hasImpLevelHeaded": false,
+      "hasQuick": false
+    },
+    "bennies": {
+      "value": 0,
+      "max": 3
+    },
+    "wounds": {
+      "value": 0,
+      "max": 3,
+      "ignored": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Miguel",
+    "displayName": 0,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Persuasion",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.33",
+        "notes": "",
+        "attribute": "spirit",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "persuasion",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": true
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/convince.svg",
+      "_id": "6nZk5RtWVTtyotyQ",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Athletics",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.29",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": true
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "_id": "J4EFfhcWWdfEyvNr",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Notice",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.32",
+        "notes": "",
+        "attribute": "smarts",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "notice",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": true
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/awareness.svg",
+      "_id": "K9DGGRz3slZrfuaM",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Stealth",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.35",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "stealth",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": true
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/hidden.svg",
+      "_id": "SX7GnSciG0pvzcRu",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Common Knowledge",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.30",
+        "notes": "",
+        "attribute": "smarts",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "common-knowledge",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": true
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/gift-of-knowledge.svg",
+      "_id": "T6rr0LHgpBl1nfTa",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Unskilled Attempt",
+      "type": "skill",
+      "img": "systems/swade/assets/icons/skill.svg",
+      "system": {
+        "attribute": "",
+        "die": {
+          "sides": 4,
+          "modifier": -2
+        },
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "none",
+        "additionalStats": {},
+        "choiceSets": [],
+        "wild-die": {
+          "sides": 6
+        },
+        "isCoreSkill": false
+      },
+      "_id": "xYtvCsW3JRUkYK0R",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Hacking",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.31",
+        "notes": "",
+        "attribute": "smarts",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "hacking",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/computing.svg",
+      "_id": "iiO5BsRhkqP9pGWC",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.skills.Item.IL7PwVhAHgvplzlu",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768441079293,
+        "modifiedTime": 1768441079293,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Strong Willed",
+      "type": "edge",
+      "system": {
+        "category": "Social",
+        "description": "<p>See SWADE p.51</p>",
+        "notes": "",
+        "isArcaneBackground": false,
+        "requirements": [
+          {
+            "type": "rank",
+            "selector": "",
+            "value": 0,
+            "combinator": "and"
+          },
+          {
+            "type": "attribute",
+            "selector": "spirit",
+            "value": 8,
+            "combinator": "and"
+          }
+        ],
+        "swid": "strong-willed",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "grants": []
+      },
+      "sort": 100001,
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "_id": "dm9iS81iCQacf3sB",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.edges.Item.ttlD4Gy7Dlq8yzD1",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768785956552,
+        "modifiedTime": 1768785956576,
+        "lastModifiedBy": "eDeZNlwBUkaFyCdp"
+      },
+      "ownership": {
+        "default": 0,
+        "eDeZNlwBUkaFyCdp": 3
+      },
+      "folder": null
+    },
+    {
+      "name": "Thievery",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.35",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "thievery",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/lockpicks.svg",
+      "_id": "H38jKrq2cewbj6CO",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.skills.Item.5v4RiMjz2MeFbhXZ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768786449056,
+        "modifiedTime": 1768786449056,
+        "lastModifiedBy": "eDeZNlwBUkaFyCdp"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "eDeZNlwBUkaFyCdp": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Driving",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.30",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "driving",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/steering-wheel.svg",
+      "_id": "CwT52gS02QbanDHB",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.skills.Item.wxtizfY3SRgfmJMc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768787567164,
+        "modifiedTime": 1768787567164,
+        "lastModifiedBy": "eDeZNlwBUkaFyCdp"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "eDeZNlwBUkaFyCdp": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Weapon",
+      "type": "weapon",
+      "system": {
+        "description": "",
+        "notes": "",
+        "source": "",
+        "swid": "weapon",
+        "additionalStats": {},
+        "choiceSets": [],
+        "quantity": 1,
+        "weight": 6,
+        "price": 0,
+        "build": {
+          "cost": null
+        },
+        "equippable": false,
+        "equipStatus": 1,
+        "isArcaneDevice": false,
+        "arcaneSkillDie": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "powerPoints": {},
+        "isVehicular": false,
+        "mods": 1,
+        "actions": {
+          "trait": "@agi",
+          "traitMod": "",
+          "dmgMod": "",
+          "additional": {}
+        },
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "favorite": false,
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "category": "",
+        "grants": [],
+        "grantOn": 1,
+        "damage": "2d6",
+        "range": "12/24/48",
+        "rangeType": 1,
+        "rof": 1,
+        "ap": 1,
+        "parry": 0,
+        "minStr": "1d6",
+        "shots": 30,
+        "currentShots": 30,
+        "ammo": "9mm",
+        "reloadType": "none",
+        "ppReloadCost": 2,
+        "trademark": 0,
+        "isHeavyWeapon": false
+      },
+      "_id": "3drRvL1eeGBR0RrF",
+      "img": "systems/swade/assets/icons/weapon.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "eDeZNlwBUkaFyCdp": 3
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951422236,
+        "modifiedTime": 1768951772867,
+        "lastModifiedBy": "eDeZNlwBUkaFyCdp"
+      }
+    },
+    {
+      "_id": "YdE4mpw70UErWtt3",
+      "system": {
+        "actions": {
+          "additional": {},
+          "dmgMod": "",
+          "trait": "",
+          "traitMod": ""
+        },
+        "additionalStats": {},
+        "arcane": "",
+        "damage": "",
+        "description": "See SWADE page 154.",
+        "duration": "5",
+        "modifiers": [],
+        "notes": "",
+        "pp": 1,
+        "range": "Sm",
+        "rank": "Novice",
+        "trapping": "Concentration, a dull glow around the protected character, a fetish",
+        "favorite": false,
+        "swid": "arcane-protection",
+        "source": "",
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false
+      },
+      "img": "systems/swade/assets/icons/power.svg",
+      "name": "Arcane Protection",
+      "type": "power",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.powers.Item.YCK7uLmPENKq0Zdb",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951845328,
+        "modifiedTime": 1768951845328,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yr0E4nCAnxCeg6qJ",
+      "system": {
+        "actions": {
+          "additional": {},
+          "dmgMod": "",
+          "trait": "",
+          "traitMod": ""
+        },
+        "additionalStats": {},
+        "arcane": "",
+        "damage": "",
+        "description": "See SWADE page 154.",
+        "duration": "Instant",
+        "modifiers": [],
+        "notes": "",
+        "pp": 3,
+        "range": "Sm",
+        "rank": "Veteran",
+        "trapping": "Holy items, arcane symbols, handful of salt",
+        "favorite": false,
+        "swid": "banish",
+        "source": "",
+        "choiceSets": [],
+        "bonusDamageDie": 6,
+        "bonusDamageDice": 1,
+        "activities": [],
+        "templates": {
+          "cone": false,
+          "stream": false,
+          "small": false,
+          "medium": false,
+          "large": false
+        },
+        "ap": 0,
+        "innate": false
+      },
+      "img": "systems/swade/assets/icons/power.svg",
+      "name": "Banish",
+      "type": "power",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.powers.Item.6XHFuJRNJd8Cnmt5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951861009,
+        "modifiedTime": 1768951861009,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "flags": {}
+    },
+    {
+      "name": "Athletics",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.29",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "_id": "btAgtFvppk0Ywxfk",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.skills.Item.J4EFfhcWWdfEyvNr",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951871347,
+        "modifiedTime": 1768951871347,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Athletics",
+      "type": "skill",
+      "system": {
+        "description": "See SWADE p.29",
+        "notes": "",
+        "attribute": "agility",
+        "die": {
+          "sides": 4,
+          "modifier": 0
+        },
+        "wild-die": {
+          "sides": 6
+        },
+        "swid": "athletics",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "isCoreSkill": false
+      },
+      "flags": {},
+      "img": "systems/swade/assets/icons/skills/jump-across.svg",
+      "_id": "qzeCm7x8mm5YaDfE",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.skills.Item.J4EFfhcWWdfEyvNr",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951876331,
+        "modifiedTime": 1768951876331,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Mute",
+      "type": "hindrance",
+      "system": {
+        "description": "See SWADE p.25",
+        "notes": "",
+        "major": true,
+        "swid": "mute",
+        "source": "",
+        "additionalStats": {},
+        "choiceSets": [],
+        "favorite": false,
+        "grants": [],
+        "severity": "either"
+      },
+      "flags": {
+        "swade": {
+          "hasGranted": []
+        }
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "_id": "wSbUAY9Uql2wkFC6",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.swade.hindrances.Item.QJ4oazaS04Bibbgd",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "swade",
+        "systemVersion": "4.4.4",
+        "createdTime": 1768951893414,
+        "modifiedTime": 1768951893482,
+        "lastModifiedBy": "UCs3mlCyD05yYe8A"
+      },
+      "ownership": {
+        "default": 0,
+        "XGltUb0dWlJLkvbE": 3,
+        "UCs3mlCyD05yYe8A": 3
+      },
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "interface-30-swade",
+      "system": "swade",
+      "coreVersion": "12.331",
+      "systemVersion": "4.4.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "swade",
+    "systemVersion": "4.4.4",
+    "createdTime": 1768440857466,
+    "modifiedTime": 1768951687870,
+    "lastModifiedBy": "UCs3mlCyD05yYe8A"
+  }
+}

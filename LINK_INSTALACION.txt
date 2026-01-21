@@ -1,0 +1,25 @@
+========================================
+LINK DE INSTALACIÓN PARA FOUNDRY VTT
+========================================
+
+Copia esta URL y úsala en Foundry VTT:
+
+https://raw.githubusercontent.com/athisor/compendio/main/release/module.json
+
+========================================
+INSTRUCCIONES DE INSTALACIÓN
+========================================
+
+1. Abre Foundry VTT
+2. Ve a Configuración → Add-on Modules → Install Module
+3. Pega la URL de arriba en el campo "Manifest URL"
+4. Haz clic en "Install"
+5. Activa el módulo en tu mundo de juego
+
+========================================
+REPOSITORIO
+========================================
+
+https://github.com/athisor/compendio
+
+========================================
