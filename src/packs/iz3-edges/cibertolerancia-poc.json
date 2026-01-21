@@ -1,0 +1,24 @@
+{
+    "name": "Cibertolerancia (PoC)",
+    "type": "edge",
+    "_id": "53bc12b01c8043a3",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+        "description": "<p>Este es un Edge de prueba para el flujo LevelDB.</p>",
+        "source": "Interface Zero 3.0 PoC",
+        "requirements": "",
+        "actions": {},
+        "isArcaneBackground": false
+    },
+    "effects": [],
+    "flags": {
+        "core": {
+            "sourceId": "Compendium.swade-setting-iz3.iz3-edges.53bc12b01c8043a3"
+        }
+    },
+    "_stats": {
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "coreVersion": "12.331"
+    }
+}

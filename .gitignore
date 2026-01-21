@@ -1,0 +1,47 @@
+# Archivos compilados y temporales
+dist/
+build/
+*.log
+*.ldb
+*.mdb
+
+# Archivos del módulo de Foundry (no deben estar en el repo)
+FoundryVTT/Data/modules/swade-setting-iz3/packs/
+FoundryVTT/Data/modules/iz3v2/packs/
+
+# Archivos temporales de compilación
+**/_source/
+**/temp/
+**/.cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Archivos de Node.js (si se usa)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de backup
+*.bak
+*.backup
+*~

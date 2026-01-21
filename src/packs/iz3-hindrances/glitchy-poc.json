@@ -1,0 +1,23 @@
+{
+    "name": "Glitchy (PoC)",
+    "type": "hindrance",
+    "_id": "0bc2c2e8adaa4b0d",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+        "description": "<p>Esta es una Desventaja de prueba para el flujo LevelDB.</p>",
+        "source": "Interface Zero 3.0 PoC",
+        "requirements": "",
+        "actions": {}
+    },
+    "effects": [],
+    "flags": {
+        "core": {
+            "sourceId": "Compendium.swade-setting-iz3.iz3-hindrances.0bc2c2e8adaa4b0d"
+        }
+    },
+    "_stats": {
+        "systemId": "swade",
+        "systemVersion": "4.1.0",
+        "coreVersion": "12.331"
+    }
+}
