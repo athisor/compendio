@@ -116,7 +116,7 @@
       }
     }
   ],
-  "url": "https://github.com/TU_USUARIO/swade-setting-iz3",
-  "manifest": "https://raw.githubusercontent.com/TU_USUARIO/swade-setting-iz3/main/module.json",
-  "download": "https://github.com/TU_USUARIO/swade-setting-iz3/archive/refs/heads/main.zip"
+  "url": "https://github.com/athisor/compendio",
+  "manifest": "https://raw.githubusercontent.com/athisor/compendio/main/release/module.json",
+  "download": "https://github.com/athisor/compendio/archive/refs/heads/main.zip"
 }
