@@ -41,7 +41,7 @@
     {
       "name": "iz3-ancestries",
       "label": "IZ3 - Ascendencias",
-      "path": "packs/iz3-ancestries",
+      "path": "release/packs/iz3-ancestries",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -52,7 +52,7 @@
     {
       "name": "iz3-origins",
       "label": "IZ3 - Orígenes",
-      "path": "packs/iz3-origins",
+      "path": "release/packs/iz3-origins",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -63,7 +63,7 @@
     {
       "name": "iz3-edges",
       "label": "IZ3 - Ventajas",
-      "path": "packs/iz3-edges",
+      "path": "release/packs/iz3-edges",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -74,7 +74,7 @@
     {
       "name": "iz3-hindrances",
       "label": "IZ3 - Desventajas",
-      "path": "packs/iz3-hindrances",
+      "path": "release/packs/iz3-hindrances",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -85,7 +85,7 @@
     {
       "name": "iz3-gear",
       "label": "IZ3 - Equipo",
-      "path": "packs/iz3-gear",
+      "path": "release/packs/iz3-gear",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -96,7 +96,7 @@
     {
       "name": "iz3-hacking",
       "label": "IZ3 - Hacking",
-      "path": "packs/iz3-hacking",
+      "path": "release/packs/iz3-hacking",
       "type": "Item",
       "system": "swade",
       "ownership": {
@@ -107,7 +107,7 @@
     {
       "name": "iz3-bestiary",
       "label": "IZ3 - Bestiario",
-      "path": "packs/iz3-bestiary",
+      "path": "release/packs/iz3-bestiary",
       "type": "Actor",
       "system": "swade",
       "ownership": {
